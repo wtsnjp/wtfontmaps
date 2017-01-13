@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminr-v	UniJIS-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminb-h	UniJIS-UTF16-H	A-OTF-FutoMinA101Pr6-Bold.otf %!PS FutoMinA101Pr6-Bold
+uphminb-v	UniJIS-UTF16-V	A-OTF-FutoMinA101Pr6-Bold.otf %!PS FutoMinA101Pr6-Bold
+uphgothr-h	UniJIS-UTF16-H	A-OTF-GothicBBBPr6-Medium.otf %!PS GothicBBBPr6-Medium
+uphgothr-v	UniJIS-UTF16-V	A-OTF-GothicBBBPr6-Medium.otf %!PS GothicBBBPr6-Medium
+uphgothb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pr6-Bold.otf %!PS FutoGoB101Pr6-Bold
+uphgothb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pr6-Bold.otf %!PS FutoGoB101Pr6-Bold
+uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPr6-MB31.otf %!PS MidashiGoPr6-MB31
+uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPr6-MB31.otf %!PS MidashiGoPr6-MB31
+uphmgothr-h	UniJIS-UTF16-H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+uphmgothr-v	UniJIS-UTF16-V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pr6-Bold.otf %!PS FutoMinA101Pr6-Bold
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pr6-Bold.otf %!PS FutoMinA101Pr6-Bold
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPr6-Medium.otf %!PS GothicBBBPr6-Medium
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPr6-Medium.otf %!PS GothicBBBPr6-Medium
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pr6-Bold.otf %!PS FutoGoB101Pr6-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pr6-Bold.otf %!PS FutoGoB101Pr6-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPr6-MB31.otf %!PS MidashiGoPr6-MB31
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPr6-MB31.otf %!PS MidashiGoPr6-MB31
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light

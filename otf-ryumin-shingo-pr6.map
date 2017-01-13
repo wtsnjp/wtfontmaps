@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminl-v	V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminr-h	H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminr-v	V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminb-h	H	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+hminb-v	V	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+hgothr-h	H	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+hgothr-v	V	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+hgothb-h	H	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+hgothb-v	V	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+hgotheb-h	H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgotheb-v	V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hmgothr-h	H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+hmgothr-v	V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+
+% TEXT, JIS04
+hminln-h	H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminln-v	V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminrn-h	H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminrn-v	V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+hminbn-h	H	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+hminbn-v	V	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+hgothrn-h	H	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+hgothrn-v	V	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+hgothbn-h	H	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+hgothbn-v	V	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+hgothebn-h	H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgothebn-v	V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hmgothrn-h	H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+hmgothrn-v	V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+
+% CID
+otf-cjml-h	Identity-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-cjml-v	Identity-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-cjmr-h	Identity-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-cjmr-v	Identity-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-cjmb-h	Identity-H	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-cjmb-v	Identity-V	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-cjgr-h	Identity-H	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-cjgr-v	Identity-V	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-cjgb-h	Identity-H	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-cjgb-v	Identity-V	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-cjge-h	Identity-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-cjge-v	Identity-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-cjmgr-h	Identity-H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+otf-cjmgr-v	Identity-V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujml-v	UniJIS-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmr-h	UniJIS-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmr-v	UniJIS-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmb-h	UniJIS-UTF16-H	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-ujmb-v	UniJIS-UTF16-V	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-ujgr-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-ujgr-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-ujgb-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-ujgb-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-ujge-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujge-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujmgr-h	UniJIS-UTF16-H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+otf-ujmgr-v	UniJIS-UTF16-V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6-Light.otf %!PS RyuminPr6-Light
+otf-ujmbn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-ujmbn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6-Medium.otf %!PS RyuminPr6-Medium
+otf-ujgrn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-ujgrn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Light.otf %!PS ShinGoPr6-Light
+otf-ujgbn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-ujgbn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Medium.otf %!PS ShinGoPr6-Medium
+otf-ujgen-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujgen-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
+otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTF-ShinMGoPr6-Light.otf %!PS ShinMGoPr6-Light
