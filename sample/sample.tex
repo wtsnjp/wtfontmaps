@@ -1,0 +1,48 @@
+% +++
+% latex = "uplatex"  # or "platex"
+% +++
+\documentclass[autodetect-engine, dvi=dvipdfmx, fleqn]{wtarticle}
+
+\setdocinfo{
+  title = {サンプル文書},
+  author = {wtsnjp},
+}
+
+\setdocstyle{
+  packages = {
+    newtxtext, newtxmath, bxjalipsum
+  },
+  emph-style = \sffamily\gtfamily,
+}
+
+\begin{document}
+
+\maketitle
+
+これは，フォント設定確認用の\emph{サンプル文書 (sample document) }です．
+
+\section{基本書体}
+
+まずは本文で頻繁に使用するものを確認しましょう：
+%
+\begin{itemize}
+\item メイン（明朝）のフォント．英数字としてABCや123もチェック．
+\item \emph{強調（ゴシック）のフォント．英数字としてABCや123もチェック．}
+\end{itemize}
+
+\section{低レイヤ}
+
+念のため，低レイヤの設定状況も確認しておきます：
+%
+\begin{itemize}
+\item \textmc{「明朝体」のフォント．\textbf{その「ボールド」．}}
+\item \textgt{「ゴシック体」のフォント．\textbf{その「ボールド」．}}
+\end{itemize}
+
+\section{長文から受ける印象}
+
+\jalipsum[1-2]{wagahai}
+\emph{\jalipsum[3]{wagahai}}
+\jalipsum[4-5]{wagahai}
+
+\end{document}
