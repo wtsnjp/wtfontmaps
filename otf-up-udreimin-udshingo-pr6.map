@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminl-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminr-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminr-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminb-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6-Bold.otf %!PS UDReiminPr6-Bold
+uphminb-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6-Bold.otf %!PS UDReiminPr6-Bold
+uphgothr-h	UniJIS-UTF16-H	A-OTF-UDShinGoPr6-Regular.otf %!PS UDShinGoPr6-Regular
+uphgothr-v	UniJIS-UTF16-V	A-OTF-UDShinGoPr6-Regular.otf %!PS UDShinGoPr6-Regular
+uphgothb-h	UniJIS-UTF16-H	A-OTF-UDShinGoPr6-Bold.otf %!PS UDShinGoPr6-Bold
+uphgothb-v	UniJIS-UTF16-V	A-OTF-UDShinGoPr6-Bold.otf %!PS UDShinGoPr6-Bold
+uphgotheb-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+uphgotheb-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+uphmgothr-h	UniJIS-UTF16-H	A-OTF-UDShinMGoPr6-Regular.otf %!PS UDShinMGoPr6-Regular
+uphmgothr-v	UniJIS-UTF16-V	A-OTF-UDShinMGoPr6-Regular.otf %!PS UDShinMGoPr6-Regular
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6-Regular.otf %!PS UDReiminPr6-Regular
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6-Bold.otf %!PS UDReiminPr6-Bold
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6-Bold.otf %!PS UDReiminPr6-Bold
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-UDShinGoPr6-Regular.otf %!PS UDShinGoPr6-Regular
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-UDShinGoPr6-Regular.otf %!PS UDShinGoPr6-Regular
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-UDShinGoPr6-Bold.otf %!PS UDShinGoPr6-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-UDShinGoPr6-Bold.otf %!PS UDShinGoPr6-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-UDShinMGoPr6-Regular.otf %!PS UDShinMGoPr6-Regular
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-UDShinMGoPr6-Regular.otf %!PS UDShinMGoPr6-Regular
