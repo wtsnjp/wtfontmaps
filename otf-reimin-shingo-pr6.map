@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminl-v	V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminr-h	H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminr-v	V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminb-h	H	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+hminb-v	V	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+hgothr-h	H	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+hgothr-v	V	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+hgothb-h	H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgothb-v	V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgotheb-h	H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+hgotheb-v	V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+hmgothr-h	H	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+hmgothr-v	V	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+
+% TEXT, JIS04
+hminln-h	H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminln-v	V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminrn-h	H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminrn-v	V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+hminbn-h	H	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+hminbn-v	V	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+hgothrn-h	H	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+hgothrn-v	V	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+hgothbn-h	H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgothbn-v	V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+hgothebn-h	H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+hgothebn-v	V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+hmgothrn-h	H	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+hmgothrn-v	V	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+
+% CID
+otf-cjml-h	Identity-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-cjml-v	Identity-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-cjmr-h	Identity-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-cjmr-v	Identity-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-cjmb-h	Identity-H	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-cjmb-v	Identity-V	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-cjgr-h	Identity-H	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-cjgr-v	Identity-V	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-cjgb-h	Identity-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-cjgb-v	Identity-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-cjge-h	Identity-H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-cjge-v	Identity-V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-cjmgr-h	Identity-H	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+otf-cjmgr-v	Identity-V	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujml-v	UniJIS-UTF16-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmr-h	UniJIS-UTF16-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmr-v	UniJIS-UTF16-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmb-h	UniJIS-UTF16-H	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-ujmb-v	UniJIS-UTF16-V	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-ujgr-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-ujgr-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-ujgb-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujgb-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujge-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-ujge-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-ujmgr-h	UniJIS-UTF16-H	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+otf-ujmgr-v	UniJIS-UTF16-V	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmln-v	UniJIS2004-UTF16-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmrn-h	UniJIS2004-UTF16-H	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmrn-v	UniJIS2004-UTF16-V	A-OTF-ReimPr6-Regular.otf %!PS ReimPr6-Regular
+otf-ujmbn-h	UniJIS2004-UTF16-H	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-ujmbn-v	UniJIS2004-UTF16-V	A-OTF-ReimPr6-Bold.otf %!PS ReimPr6-Bold
+otf-ujgrn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-ujgrn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Regular.otf %!PS ShinGoPr6-Regular
+otf-ujgbn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujgbn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Bold.otf %!PS ShinGoPr6-Bold
+otf-ujgen-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-ujgen-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6-Heavy.otf %!PS ShinGoPr6-Heavy
+otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
+otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTF-ShinMGoPr6-Regular.otf %!PS ShinMGoPr6-Regular
