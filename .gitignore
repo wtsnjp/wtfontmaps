@@ -159,4 +159,5 @@ pythontex-files-*/
 TSWLatexianTemp*
 
 # Repository local
+build/
 sample.pdf

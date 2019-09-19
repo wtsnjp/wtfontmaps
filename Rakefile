@@ -7,15 +7,15 @@ PKG_NAME = "wtfontmaps"
 
 # directories
 REPO_ROOT = Pathname.pwd
-TMP_DIR = REPO_ROOT + "tmp"
-BUILD_DIR = TMP_DIR + "build"
+BUILD_DIR = REPO_ROOT + "build"
+SAMPLE_DIR = REPO_ROOT + "sample"
 
 TEXMFLOCAL = Pathname(`kpsewhich --var-value TEXMFLOCAL`.chomp)
 WTFONTMAMPS_DIR = TEXMFLOCAL + "fonts/map/dvipdfmx" + PKG_NAME
 
 # cleaning
-CLEAN.include([])
-CLOBBER.include([])
+CLEAN.include(["build"])
+CLOBBER.include(["sample/*.pdf"])
 
 def ensure_root
   if `whoami`.chomp != 'root'
@@ -47,4 +47,44 @@ task :install do
 
   # update the ls-R database
   sh "mktexlsr"
+end
+
+desc "Typeset all sample documents"
+task :sample do
+  # variables
+  families = [
+    "morisawa-pr6",
+    "ryumin-shingo-pr6",
+    "udreimin-udshingo-pr6",
+    "reimin-shingo-pr6"
+  ]
+  llmk_config_template = <<~TOML
+    %% +++
+    %% latex = "%s"
+    %%
+    %% [programs.dvipdf]
+    %% opts = ["-f %s"]
+    %% +++
+  TOML
+  sample_tex = File.read(SAMPLE_DIR + "sample.tex")
+
+  # preparation
+  rm_rf BUILD_DIR
+  mkdir_p BUILD_DIR
+
+  # build the samples
+  cd BUILD_DIR
+  families.each do |f|
+    sample_fn = "sample-#{f}.tex"
+    fontmap_fn = REPO_ROOT + "uptex-#{f}.map"
+    content = llmk_config_template % ["uplatex", fontmap_fn] + sample_tex
+
+    puts "Writing #{sample_fn}"
+    File.write(sample_fn, content)
+
+    sh "llmk #{sample_fn}"
+  end
+
+  # finale
+  cp Dir.glob("*.pdf"), SAMPLE_DIR
 end
