@@ -17,16 +17,8 @@ WTFONTMAMPS_DIR = TEXMFLOCAL + "fonts/map/dvipdfmx" + PKG_NAME
 CLEAN.include(["build"])
 CLOBBER.include(["sample/*.pdf"])
 
-def ensure_root
-  if `whoami`.chomp != 'root'
-    fail "This task have to be executed as root."
-  end
-end
-
 desc "Uninstall the fontmaps from TEXMFLOCAL"
 task :uninstall do
-  ensure_root
-
   # remove the direcotry
   rm_rf WTFONTMAMPS_DIR
 
@@ -36,8 +28,6 @@ end
 
 desc "Install the fontmaps to TEXMFLOCAL"
 task :install do
-  ensure_root
-
   # cleanup old stuff and recreate the empty dir
   rm_rf WTFONTMAMPS_DIR
   mkdir_p WTFONTMAMPS_DIR
