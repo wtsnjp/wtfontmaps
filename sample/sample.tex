@@ -4,7 +4,9 @@
 \author{ワトソン（wtsnjp）}
 
 \usepackage{newtxtext,newtxmath,bxjalipsum}
-\expanded{\noexpand\usepackage[expert,deluxe,\jisOption]{otf}}
+\expanded{%
+  \noexpand\usepackage[tl:\fontMapName]{pxchfon}
+  \noexpand\usepackage[expert,jis2004=\jisOption]{jlreq-deluxe}}
 \DeclareTextFontCommand{\emph}{\sffamily\gtfamily}
 \parindent=0pt
 
@@ -21,7 +23,7 @@
   \ajHashigoTaka\ajTsuchiYoshi\ajTatsuSaki\ajMayuHama
   \ajMaru{1}\ajKakko{2}\ajRoman{3}\ajroman{4}\ajKakkoAlph{5}%
   \ajKakkoalph{6}\ajMaruAlph{7}\ajMarualph{8}\ajKuroMaruAlph{9}%
-  \ajLig{明治}\ajLig{大正}\ajLig{昭和}\ajLig{平成}\ajLig{令和}\\
+  \ajLig{明治}\ajLig{大正}\ajLig{昭和}\ajLig{平成}\\%% \ajLig{令和}
   ABCDEFGHIJKLM\\
   abcdefghijklm\\
   1234567890}}

@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminr-v	UniJIS-UTF16-V	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminb-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Medium.otf %!PS RyuminPr6N-Medium
+uphminb-v	UniJIS-UTF16-V	A-OTF-RyuminPr6N-Medium.otf %!PS RyuminPr6N-Medium
+uphgothr-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6N-Light.otf %!PS ShinGoPr6N-Light
+uphgothr-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6N-Light.otf %!PS ShinGoPr6N-Light
+uphgothb-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6N-Medium.otf %!PS ShinGoPr6N-Medium
+uphgothb-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6N-Medium.otf %!PS ShinGoPr6N-Medium
+uphgotheb-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6N-Bold.otf %!PS ShinGoPr6N-Bold
+uphgotheb-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6N-Bold.otf %!PS ShinGoPr6N-Bold
+uphmgothr-h	UniJIS-UTF16-H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+uphmgothr-v	UniJIS-UTF16-V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Medium.otf %!PS RyuminPr6N-Medium
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Medium.otf %!PS RyuminPr6N-Medium
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6N-Light.otf %!PS ShinGoPr6N-Light
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6N-Light.otf %!PS ShinGoPr6N-Light
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6N-Medium.otf %!PS ShinGoPr6N-Medium
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6N-Medium.otf %!PS ShinGoPr6N-Medium
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6N-Bold.otf %!PS ShinGoPr6N-Bold
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6N-Bold.otf %!PS ShinGoPr6N-Bold
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light

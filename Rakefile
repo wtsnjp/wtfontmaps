@@ -43,18 +43,17 @@ task :sample do
     "morisawa-pr6",
     "ryumin-shingo-pr6",
     "udreimin-udshingo-pr6",
-    "reimin-shingo-pr6"
+    "reimin-shingo-pr6",
+    "morisawa-pr6n",
+    "ryumin-shingo-pr6n",
+    "udreimin-udshingo-pr6n",
+    "reimin-shingo-pr6n"
   ]
-  llmk_config_template = <<~TOML
-    %% +++
-    %% latex = "%s"
-    %%
-    %% [programs.dvipdf]
-    %% opts = ["-f %s"]
-    %% +++
+  tex_header = <<~HEAD
+    %%#!texfot uplatex
     \\def\\fontMapName{%s}
     \\def\\jisOption{%s}
-  TOML
+  HEAD
   sample_tex = File.read(SAMPLE_DIR / "sample.tex")
 
   # preparation
@@ -65,14 +64,13 @@ task :sample do
   cd BUILD_DIR
   families.each do |f|
     sample_fn = "sample-#{f}.tex"
-    fontmap_fn = MAPS_DIR / "#{f}/uptex-#{f}.map"
-    jis2004 = (f[-1] == "n") ? "jis2004" : ""
-    content = llmk_config_template % ["uplatex", fontmap_fn, f, jis2004] + sample_tex
+    jis2004 = (f[-1] == "n") ? "true" : "false"
+    content = tex_header % [f, jis2004] + sample_tex
 
     puts "Writing #{sample_fn}"
     File.write(sample_fn, content)
 
-    sh "llmk #{sample_fn}"
+    sh "llmk -v #{sample_fn}"
   end
 
   # finale

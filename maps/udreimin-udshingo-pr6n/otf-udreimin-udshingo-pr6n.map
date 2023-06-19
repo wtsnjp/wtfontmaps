@@ -1,0 +1,80 @@
+
+% TEXT, 90JIS
+hminl-h	H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminl-v	V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminr-h	H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminr-v	V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminb-h	H	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+hminb-v	V	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+hgothr-h	H	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+hgothr-v	V	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+hgothb-h	H	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+hgothb-v	V	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+hgotheb-h	H	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+hgotheb-v	V	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+hmgothr-h	H	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+hmgothr-v	V	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+
+% TEXT, JIS04
+hminln-h	H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminln-v	V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminrn-h	H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminrn-v	V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+hminbn-h	H	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+hminbn-v	V	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+hgothrn-h	H	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+hgothrn-v	V	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+hgothbn-h	H	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+hgothbn-v	V	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+hgothebn-h	H	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+hgothebn-v	V	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+hmgothrn-h	H	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+hmgothrn-v	V	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+
+% CID
+otf-cjml-h	Identity-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-cjml-v	Identity-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-cjmr-h	Identity-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-cjmr-v	Identity-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-cjmb-h	Identity-H	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-cjmb-v	Identity-V	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-cjgr-h	Identity-H	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-cjgr-v	Identity-V	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-cjgb-h	Identity-H	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-cjgb-v	Identity-V	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-cjge-h	Identity-H	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-cjge-v	Identity-V	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-cjmgr-h	Identity-H	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+otf-cjmgr-v	Identity-V	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujml-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmr-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmr-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmb-h	UniJIS-UTF16-H	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-ujmb-v	UniJIS-UTF16-V	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-ujgr-h	UniJIS-UTF16-H	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-ujgr-v	UniJIS-UTF16-V	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-ujgb-h	UniJIS-UTF16-H	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-ujgb-v	UniJIS-UTF16-V	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-ujge-h	UniJIS-UTF16-H	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-ujge-v	UniJIS-UTF16-V	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-ujmgr-h	UniJIS-UTF16-H	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+otf-ujmgr-v	UniJIS-UTF16-V	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmln-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmrn-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmrn-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6N-Regular.otf %!PS UDReiminPr6N-Regular
+otf-ujmbn-h	UniJIS2004-UTF16-H	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-ujmbn-v	UniJIS2004-UTF16-V	A-OTF-UDReiminPr6N-Bold.otf %!PS UDReiminPr6N-Bold
+otf-ujgrn-h	UniJIS2004-UTF16-H	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-ujgrn-v	UniJIS2004-UTF16-V	A-OTF-UDShinGoPr6N-Regular.otf %!PS UDShinGoPr6N-Regular
+otf-ujgbn-h	UniJIS2004-UTF16-H	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-ujgbn-v	UniJIS2004-UTF16-V	A-OTF-UDShinGoPr6N-Bold.otf %!PS UDShinGoPr6N-Bold
+otf-ujgen-h	UniJIS2004-UTF16-H	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-ujgen-v	UniJIS2004-UTF16-V	A-OTF-ShinGoPr6N-Heavy.otf %!PS ShinGoPr6N-Heavy
+otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
+otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTF-UDShinMGoPr6N-Regular.otf %!PS UDShinMGoPr6N-Regular
