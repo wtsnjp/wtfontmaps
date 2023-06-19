@@ -1,42 +1,51 @@
-\documentclass[autodetect-engine, dvi=dvipdfmx]{wtarticle}
+\documentclass{jlreq}
 
-\setdocinfo{
-  title = {サンプル文書},
-  author = {ワトソン (wtsnjp)},
-}
+\title{\textsf{wtfontmaps}サンプル文書\,---\,\texttt{\fontMapName}}
+\author{ワトソン（wtsnjp）}
 
-\setdocstyle{
-  packages = {
-    newtxtext, newtxmath, bxjalipsum
-  },
-  emph-style = \sffamily\gtfamily,
+\usepackage{newtxtext,newtxmath,bxjalipsum}
+\expanded{\noexpand\usepackage[expert,deluxe,\jisOption]{otf}}
+\DeclareTextFontCommand{\emph}{\sffamily\gtfamily}
+\parindent=0pt
+
+\def\testPar#1{\parbox{.5\textwidth}{%
+  「#1」\\
+  あのイーハトーヴォの\\
+  すきとおった風、\\
+  夏でも底に冷たさをもつ青いそら、\\
+  うつくしい森で飾られたモリーオ市、\\
+  郊外のぎらぎらひかる草の波。\\
+  祇辻飴葛蛸鯖鰯噌庖箸\\
+  \ajSnowman%% \CID経由
+  \UTF{2603}%% \UTF経由
+  \ajHashigoTaka\ajTsuchiYoshi\ajTatsuSaki\ajMayuHama
+  \ajMaru{1}\ajKakko{2}\ajRoman{3}\ajroman{4}\ajKakkoAlph{5}%
+  \ajKakkoalph{6}\ajMaruAlph{7}\ajMarualph{8}\ajKuroMaruAlph{9}%
+  \ajLig{明治}\ajLig{大正}\ajLig{昭和}\ajLig{平成}\ajLig{令和}\\
+  ABCDEFGHIJKLM\\
+  abcdefghijklm\\
+  1234567890}}
+\def\testAll{%
+  {\mcfamily\ltseries\userelfont\selectfont\testPar{明朝Light}}%
+  {\mcfamily\mdseries\userelfont\selectfont\testPar{明朝Medium}}\\[\baselineskip]
+  {\mcfamily\bfseries\userelfont\selectfont\testPar{明朝Bold}}\\[\baselineskip]
+  {\gtfamily\mdseries\userelfont\selectfont\testPar{ゴシックMedium}}%
+  {\gtfamily\bfseries\userelfont\selectfont\testPar{ゴシックBold}}\\[\baselineskip]
+  {\gtfamily\ebseries\userelfont\selectfont\testPar{ゴシックExtrabold}}\\[\baselineskip]
+  {\mgfamily\mdseries\userelfont\selectfont\testPar{丸ゴシックMedium}}%
 }
 
 \begin{document}
 
 \maketitle
 
-これは，フォント設定確認用の\emph{サンプル文書 (sample document) }です．
+\section*{書体見本}
 
-\section{基本書体}
+\testAll
 
-まずは本文で頻繁に使用するものを確認しましょう：
-%
-\begin{itemize}
-\item メイン（明朝）のフォント．英数字としてABCや123もチェック．
-\item \emph{強調（ゴシック）のフォント．英数字としてABCや123もチェック．}
-\end{itemize}
+\vspace{\baselineskip}
 
-\section{低レイヤ}
-
-念のため，低レイヤの設定状況も確認しておきます：
-%
-\begin{itemize}
-\item \textmc{「明朝体」のフォント．\textbf{その「ボールド」．}}
-\item \textgt{「ゴシック体」のフォント．\textbf{その「ボールド」．}}
-\end{itemize}
-
-\section{長文から受ける印象}
+\section*{長文の印象}
 
 \jalipsum[1-2]{wagahai}%
 \emph{\jalipsum[3]{wagahai}}%

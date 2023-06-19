@@ -6,12 +6,13 @@ require 'pathname'
 PKG_NAME = "wtfontmaps"
 
 # directories
-REPO_ROOT = Pathname.pwd
-BUILD_DIR = REPO_ROOT + "build"
-SAMPLE_DIR = REPO_ROOT + "sample"
+BASE_DIR = Pathname.pwd
+MAPS_DIR = BASE_DIR / "maps"
+BUILD_DIR = BASE_DIR / "build"
+SAMPLE_DIR = BASE_DIR / "sample"
 
 TEXMFLOCAL = Pathname(`kpsewhich --var-value TEXMFLOCAL`.chomp)
-WTFONTMAMPS_DIR = TEXMFLOCAL + "fonts/map/dvipdfmx" + PKG_NAME
+WTFONTMAMPS_DIR = TEXMFLOCAL / "fonts/map/dvipdfmx" / PKG_NAME
 
 # cleaning
 CLEAN.include(["build"])
@@ -27,13 +28,9 @@ task :uninstall do
 end
 
 desc "Install the fontmaps to TEXMFLOCAL"
-task :install do
-  # cleanup old stuff and recreate the empty dir
-  rm_rf WTFONTMAMPS_DIR
-  mkdir_p WTFONTMAMPS_DIR
-
-  # copy all map files
-  Dir.glob(REPO_ROOT + "*.map").each {|m| cp m, WTFONTMAMPS_DIR}
+task :install => :uninstall do
+  # copy map files
+  cp_r MAPS_DIR, WTFONTMAMPS_DIR
 
   # update the ls-R database
   sh "mktexlsr"
@@ -55,8 +52,10 @@ task :sample do
     %% [programs.dvipdf]
     %% opts = ["-f %s"]
     %% +++
+    \\def\\fontMapName{%s}
+    \\def\\jisOption{%s}
   TOML
-  sample_tex = File.read(SAMPLE_DIR + "sample.tex")
+  sample_tex = File.read(SAMPLE_DIR / "sample.tex")
 
   # preparation
   rm_rf BUILD_DIR
@@ -66,8 +65,9 @@ task :sample do
   cd BUILD_DIR
   families.each do |f|
     sample_fn = "sample-#{f}.tex"
-    fontmap_fn = REPO_ROOT + "uptex-#{f}.map"
-    content = llmk_config_template % ["uplatex", fontmap_fn] + sample_tex
+    fontmap_fn = MAPS_DIR / "#{f}/uptex-#{f}.map"
+    jis2004 = (f[-1] == "n") ? "jis2004" : ""
+    content = llmk_config_template % ["uplatex", fontmap_fn, f, jis2004] + sample_tex
 
     puts "Writing #{sample_fn}"
     File.write(sample_fn, content)
