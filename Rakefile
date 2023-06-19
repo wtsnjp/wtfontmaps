@@ -49,11 +49,16 @@ task :sample do
     "udreimin-udshingo-pr6n",
     "reimin-shingo-pr6n"
   ]
-  tex_header = <<~HEAD
-    %%#!texfot uplatex
+  llmk_config_template = <<~TOML
+    %% +++
+    %% latex = "texfot uplatex"
+    %%
+    %% [programs.dvipdf]
+    %% opts = ["%s"]
+    %% +++
     \\def\\fontMapName{%s}
     \\def\\jisOption{%s}
-  HEAD
+  TOML
   sample_tex = File.read(SAMPLE_DIR / "sample.tex")
 
   # preparation
@@ -64,8 +69,12 @@ task :sample do
   cd BUILD_DIR
   families.each do |f|
     sample_fn = "sample-#{f}.tex"
+    dvipdf_opt = ""
+    Dir.glob(MAPS_DIR / "#{f}/*").each do |map_file|
+      dvipdf_opt += " -f #{map_file}"
+    end
     jis2004 = (f[-1] == "n") ? "true" : "false"
-    content = tex_header % [f, jis2004] + sample_tex
+    content = llmk_config_template % [dvipdf_opt.lstrip, f, jis2004] + sample_tex
 
     puts "Writing #{sample_fn}"
     File.write(sample_fn, content)
